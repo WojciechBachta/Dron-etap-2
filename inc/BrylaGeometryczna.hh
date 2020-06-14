@@ -15,9 +15,11 @@ protected:
     Wektor3D przesun;
     Macierz3x3 MacierzZ;
     double kat;
+    Wektor3D srodek;
 
 public:
 
+Wektor3D get_prze(){return przesun;}
     int size() const
     {
         return (int)Wierz.size();
